@@ -4,7 +4,6 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="shortcut icon" href="assets/favicon.png" type="image/x-icon" />
-    <!-- Tailwind CDN  -->
 
     <title>Random Quote Generator by Abu Naser Muhammad Arman</title>
   </head>
@@ -15,9 +14,17 @@
         <ul class="category-container">
           <li class="category"></li>
         </ul>
-        <p id="quote">
-        </p>
+        <p id="quote"></p>
       </section>
+      <!-- Buttons -->
+      <div class="button-container">
+        <button class="button generate-button" onclick="getQuote()">
+          <img src="./assets/regroup.svg" alt="" />
+        </button>
+        <button class="button copy-button" onclick="copyQuote()">
+          <img src="./assets/link.svg" alt="" />
+        </button>
+      </div>
     </main>
     <script src="./js/script.js"></script>
   </body>
