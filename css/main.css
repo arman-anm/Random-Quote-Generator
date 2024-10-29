@@ -19,7 +19,7 @@ body {
 /* Quote Section */
 .quote-section {
   background-color: #20293a;
-  padding: 48px 48px 30px;
+  padding: 30px 48px 48px 48px;
   border-radius: 15px;
   position: relative;
   min-height: 209px;  /* To fit thr background SVG */
