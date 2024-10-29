@@ -1,30 +1,22 @@
 # Random Quote Generator
 
-A web application that fetches and displays random quotes from the [Ninja Quotes API](https://api-ninjas.com/api/quotes) each time the user clicks the "Generate Quote" button. Users can also copy the quote to their clipboard.
+This simple app pulls a random quote from the [Ninja Quotes API](https://api-ninjas.com/api/quotes) every time user hits the "Generate Quote" button. Plus the quote can be copied/shared easily by clicking the "Copy Quote" button!
 
-## Table of Contents
+[Live Demo](https://arman-anm.github.io/Random-Quote-Generator)
 
-- [Features](#features)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Project Structure](#project-structure)
-- [Technologies Used](#technologies-used)
-- [Contributing](#contributing)
-- [License](#license)
+### Screenshot
 
----
+![Demo](./assets/screenshot.png)
 
-## Features
+### Key Features
+- **Random Quotes**: Fetch a fresh quote with each click.
+- **Clipboard Copy**: Easily copy quotes and authors.
 
-- This simple app fetches a random quote from the Ninja Quotes API.
-- Displays the quote, author, and category.
-- Users can copy the displayed quote to their clipboard.
 
-## Installation
+### Built With
+- **HTML5**: Structured content
+- **CSS3**: Styling with Flexbox
+- **JavaScript**: Fetching quotes and handling user actions
 
-1. **Clone the repository:**
-   ```bash
-   git clone https://github.com/yourusername/random-quote-generator.git
-   cd random-quote-generator
-
- 
+## Shoutout
+This project is based on the [Generate Quote Challenge](https://devchallenges.io/challenge/random-quote) by [DevChallenges](https://devchallenges.io/)  `:)`
