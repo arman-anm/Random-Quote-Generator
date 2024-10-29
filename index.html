@@ -1,15 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <!-- Metadata -->
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="shortcut icon" href="assets/favicon.png" type="image/x-icon" />
-    <link rel="stylesheet" href="./css/reset.css" />
 
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="assets/favicon.png" type="image/x-icon" />
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="./css/reset.css" />
     <link rel="stylesheet" href="./css/main.css" />
+
+    <!-- Title -->
     <title>Random Quote Generator by Abu Naser Muhammad Arman</title>
   </head>
+
   <body>
+    <!-- Main Content -->
     <main>
       <section class="quote-section">
         <h1 id="author" class="author"></h1>
@@ -18,19 +26,19 @@
         </ul>
         <p id="quote" class="quote"></p>
       </section>
+
       <!-- Buttons -->
       <div class="button-container">
-        <button onclick="getQuote()"  class="button generate-button">
-          <img
-            src="./assets/regroup.svg"
-            alt=""
-            />
+        <button onclick="getQuote()" class="button generate-button">
+          <img src="./assets/regroup.svg" alt="Generate new quote" />
         </button>
         <button onclick="copyQuote()" class="button copy-button">
-          <img src="./assets/link.svg" alt=""  />
+          <img src="./assets/link.svg" alt="Copy quote" />
         </button>
       </div>
     </main>
+
+    <!-- Scripts -->
     <script src="./js/script.js"></script>
   </body>
 </html>
