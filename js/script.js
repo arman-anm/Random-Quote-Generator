@@ -15,7 +15,7 @@ function getQuote() {
         // Update HTML elements with fetched quote
         document.getElementById('author').textContent = fetchedQuote.author;
         document.querySelector('.category').textContent = fetchedQuote.category;
-        document.getElementById('quote').textContent = fetchedQuote.quote;
+        document.getElementById('quote').textContent = `"${fetchedQuote.quote}"`;
       } else {
         console.error('No quote received');
       }
