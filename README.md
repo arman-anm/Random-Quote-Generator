@@ -1,6 +1,6 @@
 # Random Quote Generator
 
-This simple app pulls a random quote from the [Ninja Quotes API](https://api-ninjas.com/api/quotes) every time user hits the "Generate Quote" button. Plus the quote can be copied/shared easily by clicking the "Copy Quote" button!
+This simple app pulls a random quote from the internet every time user hits the "Generate Quote" button. Plus the quote can be copied/shared easily by clicking the "Copy Quote" button!
 
 [Live Demo](https://arman-anm.github.io/Random-Quote-Generator)
 
